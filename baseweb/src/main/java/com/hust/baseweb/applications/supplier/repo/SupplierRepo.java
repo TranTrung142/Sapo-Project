@@ -16,8 +16,8 @@ public interface SupplierRepo extends JpaRepository<Supplier, UUID> {
     List<Supplier> findBySupplierNameContaining(String search, Pageable pageable);
 
     @Query(value = "select supplier_id supplierId, supplier_name supplierName, phone_number phoneNumber,email, address " +
-            "from supplier s ",
-    countQuery = "select count(*) from supplier s ",
+            "from supplier s where supplier_name like %?1 and email like %?1 and phone_number like %?1 and address like %?1",
+    countQuery = "select count(*) from supplier s where supplier_name like %?1 and email like %?1 and phone_number like %?1 and address like %?1",
     nativeQuery = true)
     Page<ListSupplierOM> findAllBySupplierName(String search, Pageable pageable);
 //    @Query(value = "select supplier_id supplierId, supplier_name supplierName, phone_number phoneNumber," +

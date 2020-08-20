@@ -4,11 +4,11 @@ import java.util.Date;
 import java.util.UUID;
 
 public interface ListSupplierOM {
-     UUID getSupplierid();
+     UUID getSupplierId();
 
-     String getSuppliername();
+     String getSupplierName();
 
-     String getPhonenumber();
+     String getPhoneNumber();
 
      String getEmail();
 
