@@ -1,0 +1,1593 @@
+2020-08-20 11:14:25.708  WARN 7516 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 11:14:25.765  INFO 7516 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 7516 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 11:14:25.767 DEBUG 7516 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 11:14:25.768  INFO 7516 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 11:14:29.773  INFO 7516 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 11:14:29.774  INFO 7516 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 11:14:30.178  INFO 7516 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 390ms. Found 16 repository interfaces.
+2020-08-20 11:14:30.218  INFO 7516 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 11:14:30.220  INFO 7516 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 11:14:30.290  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 11:14:30.291  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 11:14:30.291  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 11:14:30.292  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 11:14:30.293  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 11:14:30.294  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 11:14:30.295  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 11:14:30.296  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 11:14:30.297  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 11:14:30.298  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 11:14:30.299  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 11:14:30.300  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 11:14:30.302  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 11:14:30.303  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 11:14:30.303  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 11:14:30.304  INFO 7516 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 11:14:30.305  INFO 7516 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2020-08-20 11:14:31.427  INFO 7516 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 11:14:32.156  INFO 7516 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 11:14:32.173  INFO 7516 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 11:14:32.174  INFO 7516 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 11:14:32.174  INFO 7516 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 11:14:32.788  INFO 7516 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 11:14:32.788  INFO 7516 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6892 ms
+2020-08-20 11:14:33.270  WARN 7516 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 11:14:33.270  INFO 7516 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 11:14:33.700  INFO 7516 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 11:14:33.980  INFO 7516 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 11:14:34.204  INFO 7516 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 11:14:34.557  INFO 7516 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 11:14:34.867  INFO 7516 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 11:14:37.522  INFO 7516 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 11:14:37.537  INFO 7516 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 11:14:38.525  WARN 7516 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 11:14:40.896  WARN 7516 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:14:40.896  WARN 7516 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:14:40.896  WARN 7516 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:14:40.919  WARN 7516 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:14:40.919  WARN 7516 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:14:40.919  WARN 7516 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:14:44.325  INFO 7516 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 11:14:46.154  INFO 7516 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c476b8f, org.springframework.security.web.context.SecurityContextPersistenceFilter@66a97b79, org.springframework.security.web.header.HeaderWriterFilter@42f2c28d, org.springframework.security.web.authentication.logout.LogoutFilter@23b81002, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b7ee413, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2921aa59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f5fd883, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e5affb3, org.springframework.security.web.session.SessionManagementFilter@b6182cb, org.springframework.security.web.access.ExceptionTranslationFilter@474172e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47d1798c]
+2020-08-20 11:14:47.175  INFO 7516 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 11:14:47.222  INFO 7516 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 11:14:47.234  INFO 7516 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 23.007 seconds (JVM running for 31.536)
+2020-08-20 11:15:14.547  INFO 7516 --- [nio-8080-exec-3]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 11:15:14.547  INFO 7516 --- [nio-8080-exec-3]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 11:15:14.593  INFO 7516 --- [nio-8080-exec-3]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2020-08-20 11:15:14.840 DEBUG 7516 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_,
+        userlogin0_.client_token as client_t2_17_,
+        userlogin0_.disabled_date_time as disabled3_17_,
+        userlogin0_.enabled as enabled4_17_,
+        userlogin0_.has_logged_out as has_logg5_17_,
+        userlogin0_.is_system as is_syste6_17_,
+        userlogin0_.otp_resend_number as otp_rese7_17_,
+        userlogin0_.otp_secret as otp_secr8_17_,
+        userlogin0_.party_id as party_i13_17_,
+        userlogin0_.current_password as current_9_17_,
+        userlogin0_.password_hint as passwor10_17_,
+        userlogin0_.require_password_change as require11_17_,
+        userlogin0_.successive_failed_logins as success12_17_ 
+    from
+        user_login userlogin0_ 
+    where
+        userlogin0_.user_login_id=?
+2020-08-20 11:15:14.847 TRACE 7516 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2020-08-20 11:15:14.887 DEBUG 7516 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        party0_.party_id as party_id1_3_0_,
+        party0_.created_by_user_login as created_2_3_0_,
+        party0_.created_date as created_3_3_0_,
+        party0_.description as descript4_3_0_,
+        party0_.is_unread as is_unrea5_3_0_,
+        party0_.last_modified_date as last_mod6_3_0_,
+        party0_.last_modified_by_user_login as last_mod7_3_0_,
+        party0_.name as name8_3_0_,
+        party0_.party_code as party_co9_3_0_,
+        party0_.status_id as status_12_3_0_,
+        party0_.party_type_id as party_t13_3_0_,
+        partytype1_.party_type_id as party_ty1_5_1_,
+        partytype1_.created_stamp as created_2_5_1_,
+        partytype1_.description as descript3_5_1_,
+        partytype1_.has_table as has_tabl4_5_1_,
+        partytype1_.last_updated_stamp as last_upd5_5_1_,
+        partytype1_.parent_type_id as parent_t6_5_1_,
+        userlogin2_.user_login_id as user_log1_17_2_,
+        userlogin2_.client_token as client_t2_17_2_,
+        userlogin2_.disabled_date_time as disabled3_17_2_,
+        userlogin2_.enabled as enabled4_17_2_,
+        userlogin2_.has_logged_out as has_logg5_17_2_,
+        userlogin2_.is_system as is_syste6_17_2_,
+        userlogin2_.otp_resend_number as otp_rese7_17_2_,
+        userlogin2_.otp_secret as otp_secr8_17_2_,
+        userlogin2_.party_id as party_i13_17_2_,
+        userlogin2_.current_password as current_9_17_2_,
+        userlogin2_.password_hint as passwor10_17_2_,
+        userlogin2_.require_password_change as require11_17_2_,
+        userlogin2_.successive_failed_logins as success12_17_2_,
+        roles3_.user_login_id as user_log1_16_3_,
+        securitygr4_.group_id as group_id2_16_3_,
+        securitygr4_.group_id as group_id1_8_4_,
+        securitygr4_.created_stamp as created_2_8_4_,
+        securitygr4_.description as descript3_8_4_,
+        securitygr4_.last_updated_stamp as last_upd4_8_4_ 
+    from
+        party party0_ 
+    left outer join
+        party_type partytype1_ 
+            on party0_.party_type_id=partytype1_.party_type_id 
+    left outer join
+        user_login userlogin2_ 
+            on party0_.party_id=userlogin2_.party_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin2_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        party0_.party_id=?
+2020-08-20 11:15:14.889 TRACE 7516 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 11:15:14.935 DEBUG 7516 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_3_,
+        userlogin0_.client_token as client_t2_17_3_,
+        userlogin0_.disabled_date_time as disabled3_17_3_,
+        userlogin0_.enabled as enabled4_17_3_,
+        userlogin0_.has_logged_out as has_logg5_17_3_,
+        userlogin0_.is_system as is_syste6_17_3_,
+        userlogin0_.otp_resend_number as otp_rese7_17_3_,
+        userlogin0_.otp_secret as otp_secr8_17_3_,
+        userlogin0_.party_id as party_i13_17_3_,
+        userlogin0_.current_password as current_9_17_3_,
+        userlogin0_.password_hint as passwor10_17_3_,
+        userlogin0_.require_password_change as require11_17_3_,
+        userlogin0_.successive_failed_logins as success12_17_3_,
+        party1_.party_id as party_id1_3_0_,
+        party1_.created_by_user_login as created_2_3_0_,
+        party1_.created_date as created_3_3_0_,
+        party1_.description as descript4_3_0_,
+        party1_.is_unread as is_unrea5_3_0_,
+        party1_.last_modified_date as last_mod6_3_0_,
+        party1_.last_modified_by_user_login as last_mod7_3_0_,
+        party1_.name as name8_3_0_,
+        party1_.party_code as party_co9_3_0_,
+        party1_.status_id as status_12_3_0_,
+        party1_.party_type_id as party_t13_3_0_,
+        partytype2_.party_type_id as party_ty1_5_1_,
+        partytype2_.created_stamp as created_2_5_1_,
+        partytype2_.description as descript3_5_1_,
+        partytype2_.has_table as has_tabl4_5_1_,
+        partytype2_.last_updated_stamp as last_upd5_5_1_,
+        partytype2_.parent_type_id as parent_t6_5_1_,
+        roles3_.user_login_id as user_log1_16_5_,
+        securitygr4_.group_id as group_id2_16_5_,
+        securitygr4_.group_id as group_id1_8_2_,
+        securitygr4_.created_stamp as created_2_8_2_,
+        securitygr4_.description as descript3_8_2_,
+        securitygr4_.last_updated_stamp as last_upd4_8_2_ 
+    from
+        user_login userlogin0_ 
+    left outer join
+        party party1_ 
+            on userlogin0_.party_id=party1_.party_id 
+    left outer join
+        party_type partytype2_ 
+            on party1_.party_type_id=partytype2_.party_type_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin0_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        userlogin0_.party_id=?
+2020-08-20 11:15:14.936 TRACE 7516 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 11:15:15.150 DEBUG 7516 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_,
+        userlogin0_.client_token as client_t2_17_,
+        userlogin0_.disabled_date_time as disabled3_17_,
+        userlogin0_.enabled as enabled4_17_,
+        userlogin0_.has_logged_out as has_logg5_17_,
+        userlogin0_.is_system as is_syste6_17_,
+        userlogin0_.otp_resend_number as otp_rese7_17_,
+        userlogin0_.otp_secret as otp_secr8_17_,
+        userlogin0_.party_id as party_i13_17_,
+        userlogin0_.current_password as current_9_17_,
+        userlogin0_.password_hint as passwor10_17_,
+        userlogin0_.require_password_change as require11_17_,
+        userlogin0_.successive_failed_logins as success12_17_ 
+    from
+        user_login userlogin0_ 
+    where
+        userlogin0_.user_login_id=?
+2020-08-20 11:15:15.151 TRACE 7516 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2020-08-20 11:15:15.154 DEBUG 7516 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        party0_.party_id as party_id1_3_0_,
+        party0_.created_by_user_login as created_2_3_0_,
+        party0_.created_date as created_3_3_0_,
+        party0_.description as descript4_3_0_,
+        party0_.is_unread as is_unrea5_3_0_,
+        party0_.last_modified_date as last_mod6_3_0_,
+        party0_.last_modified_by_user_login as last_mod7_3_0_,
+        party0_.name as name8_3_0_,
+        party0_.party_code as party_co9_3_0_,
+        party0_.status_id as status_12_3_0_,
+        party0_.party_type_id as party_t13_3_0_,
+        partytype1_.party_type_id as party_ty1_5_1_,
+        partytype1_.created_stamp as created_2_5_1_,
+        partytype1_.description as descript3_5_1_,
+        partytype1_.has_table as has_tabl4_5_1_,
+        partytype1_.last_updated_stamp as last_upd5_5_1_,
+        partytype1_.parent_type_id as parent_t6_5_1_,
+        userlogin2_.user_login_id as user_log1_17_2_,
+        userlogin2_.client_token as client_t2_17_2_,
+        userlogin2_.disabled_date_time as disabled3_17_2_,
+        userlogin2_.enabled as enabled4_17_2_,
+        userlogin2_.has_logged_out as has_logg5_17_2_,
+        userlogin2_.is_system as is_syste6_17_2_,
+        userlogin2_.otp_resend_number as otp_rese7_17_2_,
+        userlogin2_.otp_secret as otp_secr8_17_2_,
+        userlogin2_.party_id as party_i13_17_2_,
+        userlogin2_.current_password as current_9_17_2_,
+        userlogin2_.password_hint as passwor10_17_2_,
+        userlogin2_.require_password_change as require11_17_2_,
+        userlogin2_.successive_failed_logins as success12_17_2_,
+        roles3_.user_login_id as user_log1_16_3_,
+        securitygr4_.group_id as group_id2_16_3_,
+        securitygr4_.group_id as group_id1_8_4_,
+        securitygr4_.created_stamp as created_2_8_4_,
+        securitygr4_.description as descript3_8_4_,
+        securitygr4_.last_updated_stamp as last_upd4_8_4_ 
+    from
+        party party0_ 
+    left outer join
+        party_type partytype1_ 
+            on party0_.party_type_id=partytype1_.party_type_id 
+    left outer join
+        user_login userlogin2_ 
+            on party0_.party_id=userlogin2_.party_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin2_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        party0_.party_id=?
+2020-08-20 11:15:15.155 TRACE 7516 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 11:15:15.160 DEBUG 7516 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_3_,
+        userlogin0_.client_token as client_t2_17_3_,
+        userlogin0_.disabled_date_time as disabled3_17_3_,
+        userlogin0_.enabled as enabled4_17_3_,
+        userlogin0_.has_logged_out as has_logg5_17_3_,
+        userlogin0_.is_system as is_syste6_17_3_,
+        userlogin0_.otp_resend_number as otp_rese7_17_3_,
+        userlogin0_.otp_secret as otp_secr8_17_3_,
+        userlogin0_.party_id as party_i13_17_3_,
+        userlogin0_.current_password as current_9_17_3_,
+        userlogin0_.password_hint as passwor10_17_3_,
+        userlogin0_.require_password_change as require11_17_3_,
+        userlogin0_.successive_failed_logins as success12_17_3_,
+        party1_.party_id as party_id1_3_0_,
+        party1_.created_by_user_login as created_2_3_0_,
+        party1_.created_date as created_3_3_0_,
+        party1_.description as descript4_3_0_,
+        party1_.is_unread as is_unrea5_3_0_,
+        party1_.last_modified_date as last_mod6_3_0_,
+        party1_.last_modified_by_user_login as last_mod7_3_0_,
+        party1_.name as name8_3_0_,
+        party1_.party_code as party_co9_3_0_,
+        party1_.status_id as status_12_3_0_,
+        party1_.party_type_id as party_t13_3_0_,
+        partytype2_.party_type_id as party_ty1_5_1_,
+        partytype2_.created_stamp as created_2_5_1_,
+        partytype2_.description as descript3_5_1_,
+        partytype2_.has_table as has_tabl4_5_1_,
+        partytype2_.last_updated_stamp as last_upd5_5_1_,
+        partytype2_.parent_type_id as parent_t6_5_1_,
+        roles3_.user_login_id as user_log1_16_5_,
+        securitygr4_.group_id as group_id2_16_5_,
+        securitygr4_.group_id as group_id1_8_2_,
+        securitygr4_.created_stamp as created_2_8_2_,
+        securitygr4_.description as descript3_8_2_,
+        securitygr4_.last_updated_stamp as last_upd4_8_2_ 
+    from
+        user_login userlogin0_ 
+    left outer join
+        party party1_ 
+            on userlogin0_.party_id=party1_.party_id 
+    left outer join
+        party_type partytype2_ 
+            on party1_.party_type_id=partytype2_.party_type_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin0_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        userlogin0_.party_id=?
+2020-08-20 11:15:15.161 TRACE 7516 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 11:15:15.460  INFO 7516 --- [nio-8080-exec-3]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 11:15:15.462  INFO 7516 --- [nio-8080-exec-3]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 11:15:41.886 DEBUG 7516 --- [nio-8080-exec-4]  org.hibernate.SQL                        : 
+    select
+        supplier0_.supplier_id as supplier1_14_,
+        supplier0_.address as address2_14_,
+        supplier0_.created_stamp as created_3_14_,
+        supplier0_.email as email4_14_,
+        supplier0_.last_updated_stamp as last_upd5_14_,
+        supplier0_.phone_number as phone_nu6_14_,
+        supplier0_.supplier_name as supplier7_14_ 
+    from
+        supplier supplier0_ 
+    where
+        supplier0_.supplier_name like ? escape ? limit ?
+2020-08-20 11:15:41.888 TRACE 7516 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%TUAN%]
+2020-08-20 11:15:41.889 TRACE 7516 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [CHAR] - [\]
+2020-08-20 11:16:25.526  INFO 7516 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 11:16:26.663  INFO 7516 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 11:16:26.666  INFO 7516 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 11:16:26.672  INFO 7516 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 11:16:43.078  WARN 7300 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 11:16:43.122  INFO 7300 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 7300 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 11:16:43.123 DEBUG 7300 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 11:16:43.124  INFO 7300 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 11:16:45.311  INFO 7300 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 11:16:45.311  INFO 7300 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 11:16:45.521  INFO 7300 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 199ms. Found 16 repository interfaces.
+2020-08-20 11:16:45.544  INFO 7300 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 11:16:45.546  INFO 7300 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 11:16:45.628  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 11:16:45.629  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 11:16:45.630  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 11:16:45.631  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 11:16:45.632  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 11:16:45.633  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 11:16:45.634  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 11:16:45.634  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 11:16:45.635  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 11:16:45.636  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 11:16:45.637  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 11:16:45.637  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 11:16:45.638  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 11:16:45.639  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 11:16:45.640  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 11:16:45.641  INFO 7300 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 11:16:45.642  INFO 7300 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
+2020-08-20 11:16:46.375  INFO 7300 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 11:16:46.813  INFO 7300 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 11:16:46.830  INFO 7300 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 11:16:46.830  INFO 7300 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 11:16:46.831  INFO 7300 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 11:16:47.156  INFO 7300 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 11:16:47.157  INFO 7300 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3894 ms
+2020-08-20 11:16:47.401  WARN 7300 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 11:16:47.402  INFO 7300 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 11:16:47.559  INFO 7300 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 11:16:47.664  INFO 7300 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 11:16:47.756  INFO 7300 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 11:16:47.912  INFO 7300 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 11:16:48.072  INFO 7300 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 11:16:49.868  INFO 7300 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 11:16:49.878  INFO 7300 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 11:16:50.531  WARN 7300 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 11:16:51.843  WARN 7300 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:16:51.843  WARN 7300 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:16:51.844  WARN 7300 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:16:51.857  WARN 7300 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:16:51.857  WARN 7300 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:16:51.858  WARN 7300 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:16:53.801  INFO 7300 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 11:16:54.930  INFO 7300 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17765082, org.springframework.security.web.context.SecurityContextPersistenceFilter@45cfbfe9, org.springframework.security.web.header.HeaderWriterFilter@5e66d85d, org.springframework.security.web.authentication.logout.LogoutFilter@28debadc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2f0170e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e2783ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f707d71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17fac5b2, org.springframework.security.web.session.SessionManagementFilter@4b9fd79, org.springframework.security.web.access.ExceptionTranslationFilter@16e693c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55c3222d]
+2020-08-20 11:16:55.532  INFO 7300 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 11:16:55.567  INFO 7300 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 11:16:55.573  INFO 7300 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 14.035 seconds (JVM running for 16.931)
+2020-08-20 11:17:03.950  INFO 7300 --- [nio-8080-exec-1]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 11:17:03.951  INFO 7300 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 11:17:03.980  INFO 7300 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-08-20 11:17:04.162  INFO 7300 --- [nio-8080-exec-1]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 11:17:04.164  INFO 7300 --- [nio-8080-exec-1]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 11:17:05.246 DEBUG 7300 --- [nio-8080-exec-1]  org.hibernate.SQL                        : 
+    select
+        supplier0_.supplier_id as supplier1_14_,
+        supplier0_.address as address2_14_,
+        supplier0_.created_stamp as created_3_14_,
+        supplier0_.email as email4_14_,
+        supplier0_.last_updated_stamp as last_upd5_14_,
+        supplier0_.phone_number as phone_nu6_14_,
+        supplier0_.supplier_name as supplier7_14_ 
+    from
+        supplier supplier0_ 
+    where
+        supplier0_.supplier_name like ? escape ? limit ?
+2020-08-20 11:17:05.253 TRACE 7300 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%TUAN%]
+2020-08-20 11:17:05.253 TRACE 7300 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [CHAR] - [\]
+2020-08-20 11:18:52.925  INFO 7300 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 11:18:54.054  INFO 7300 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 11:18:54.057  INFO 7300 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 11:18:54.061  INFO 7300 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 11:33:10.557  INFO 15704 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 15704 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 11:33:10.559 DEBUG 15704 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 11:33:10.560  INFO 15704 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 11:33:10.616  WARN 15704 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 11:33:12.595  INFO 15704 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 11:33:12.596  INFO 15704 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 11:33:12.821  INFO 15704 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 214ms. Found 16 repository interfaces.
+2020-08-20 11:33:12.842  INFO 15704 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 11:33:12.844  INFO 15704 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 11:33:12.868  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 11:33:12.870  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 11:33:12.870  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 11:33:12.871  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 11:33:12.871  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 11:33:12.871  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 11:33:12.872  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 11:33:12.872  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 11:33:12.873  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 11:33:12.873  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 11:33:12.873  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 11:33:12.874  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 11:33:12.875  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 11:33:12.875  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 11:33:12.875  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 11:33:12.876  INFO 15704 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 11:33:12.876  INFO 15704 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2020-08-20 11:33:13.572  INFO 15704 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 11:33:14.070  INFO 15704 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 11:33:14.081  INFO 15704 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 11:33:14.082  INFO 15704 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 11:33:14.082  INFO 15704 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 11:33:14.468  INFO 15704 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 11:33:14.469  INFO 15704 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3741 ms
+2020-08-20 11:33:14.808  WARN 15704 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 11:33:14.809  INFO 15704 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 11:33:14.984  INFO 15704 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 11:33:15.086  INFO 15704 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 11:33:15.225  INFO 15704 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 11:33:15.613  INFO 15704 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 11:33:15.813  INFO 15704 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 11:33:17.522  INFO 15704 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 11:33:17.531  INFO 15704 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 11:33:18.242  WARN 15704 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 11:33:19.935  WARN 15704 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:33:19.936  WARN 15704 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:33:19.936  WARN 15704 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:33:19.949  WARN 15704 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:33:19.949  WARN 15704 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:33:19.949  WARN 15704 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 11:33:21.838  INFO 15704 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 11:33:23.030  INFO 15704 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42531e1b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e04275e, org.springframework.security.web.header.HeaderWriterFilter@607c7f58, org.springframework.security.web.authentication.logout.LogoutFilter@46ae1e6b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7265db9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@712ce4f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52b7d2d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a845f91, org.springframework.security.web.session.SessionManagementFilter@31829b82, org.springframework.security.web.access.ExceptionTranslationFilter@7f5179be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78fb8a66]
+2020-08-20 11:33:23.664  INFO 15704 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 11:33:23.698  INFO 15704 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 11:33:23.704  INFO 15704 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 14.457 seconds (JVM running for 17.81)
+2020-08-20 11:33:58.204  INFO 15704 --- [nio-8080-exec-2]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 11:33:58.204  INFO 15704 --- [nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 11:33:58.243  INFO 15704 --- [nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 39 ms
+2020-08-20 11:33:58.420  INFO 15704 --- [nio-8080-exec-2]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 11:33:58.422  INFO 15704 --- [nio-8080-exec-2]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 11:33:59.477 DEBUG 15704 --- [nio-8080-exec-2]  org.hibernate.SQL                        : 
+    select
+        supplier0_.supplier_id as supplier1_14_,
+        supplier0_.address as address2_14_,
+        supplier0_.created_stamp as created_3_14_,
+        supplier0_.email as email4_14_,
+        supplier0_.last_updated_stamp as last_upd5_14_,
+        supplier0_.phone_number as phone_nu6_14_,
+        supplier0_.supplier_name as supplier7_14_ 
+    from
+        supplier supplier0_ 
+    where
+        supplier0_.supplier_name like ? escape ? limit ?
+2020-08-20 11:33:59.486 TRACE 15704 --- [nio-8080-exec-2]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%TUAN%]
+2020-08-20 11:33:59.487 TRACE 15704 --- [nio-8080-exec-2]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [CHAR] - [\]
+2020-08-20 11:34:10.347 DEBUG 15704 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        supplier0_.supplier_id as supplier1_14_,
+        supplier0_.address as address2_14_,
+        supplier0_.created_stamp as created_3_14_,
+        supplier0_.email as email4_14_,
+        supplier0_.last_updated_stamp as last_upd5_14_,
+        supplier0_.phone_number as phone_nu6_14_,
+        supplier0_.supplier_name as supplier7_14_ 
+    from
+        supplier supplier0_ limit ?
+2020-08-20 11:34:10.358 DEBUG 15704 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        count(supplier0_.supplier_id) as col_0_0_ 
+    from
+        supplier supplier0_
+2020-08-20 11:34:10.411 DEBUG 15704 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        count(*) as col_0_0_ 
+    from
+        supplier supplier0_
+2020-08-20 11:34:22.726  INFO 15704 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 11:34:23.857  INFO 15704 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 11:34:23.859  INFO 15704 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 11:34:23.864  INFO 15704 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:53:55.527  WARN 6184 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 16:53:55.623  INFO 6184 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 6184 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 16:53:55.625 DEBUG 6184 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 16:53:55.627  INFO 6184 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 16:53:59.515  INFO 6184 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 16:53:59.516  INFO 6184 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 16:54:00.000  INFO 6184 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 459ms. Found 16 repository interfaces.
+2020-08-20 16:54:00.047  INFO 6184 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 16:54:00.050  INFO 6184 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 16:54:00.144  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 16:54:00.146  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 16:54:00.148  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 16:54:00.149  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 16:54:00.150  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 16:54:00.151  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 16:54:00.152  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 16:54:00.153  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 16:54:00.155  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 16:54:00.156  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 16:54:00.157  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 16:54:00.158  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 16:54:00.159  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 16:54:00.168  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 16:54:00.169  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 16:54:00.174  INFO 6184 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 16:54:00.174  INFO 6184 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+2020-08-20 16:54:01.424  INFO 6184 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 16:54:02.186  INFO 6184 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 16:54:02.205  INFO 6184 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 16:54:02.207  INFO 6184 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 16:54:02.207  INFO 6184 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 16:54:02.730  INFO 6184 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 16:54:02.731  INFO 6184 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6935 ms
+2020-08-20 16:54:03.153  WARN 6184 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 16:54:03.153  INFO 6184 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:54:03.342  INFO 6184 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:54:03.511  INFO 6184 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 16:54:03.686  INFO 6184 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 16:54:04.028  INFO 6184 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 16:54:04.266  INFO 6184 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 16:54:06.861  INFO 6184 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 16:54:06.873  INFO 6184 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 16:54:07.914  WARN 6184 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 16:54:10.476  WARN 6184 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:54:10.476  WARN 6184 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:54:10.477  WARN 6184 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:54:10.500  WARN 6184 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:54:10.500  WARN 6184 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:54:10.501  WARN 6184 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:54:14.099  INFO 6184 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:54:16.244  INFO 6184 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ce4a8a2, org.springframework.security.web.context.SecurityContextPersistenceFilter@53d257e7, org.springframework.security.web.header.HeaderWriterFilter@6e11d059, org.springframework.security.web.authentication.logout.LogoutFilter@70347322, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56b9a73c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dcaa0e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3413effc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53b1a09f, org.springframework.security.web.session.SessionManagementFilter@547a79cd, org.springframework.security.web.access.ExceptionTranslationFilter@5b3063b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74faa12]
+2020-08-20 16:54:17.350  INFO 6184 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 16:54:17.407  INFO 6184 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 16:54:17.414  INFO 6184 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 23.92 seconds (JVM running for 29.387)
+2020-08-20 16:54:32.225  INFO 6184 --- [nio-8080-exec-3]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 16:54:32.226  INFO 6184 --- [nio-8080-exec-3]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 16:54:32.274  INFO 6184 --- [nio-8080-exec-3]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2020-08-20 16:54:32.496 DEBUG 6184 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_,
+        userlogin0_.client_token as client_t2_17_,
+        userlogin0_.disabled_date_time as disabled3_17_,
+        userlogin0_.enabled as enabled4_17_,
+        userlogin0_.has_logged_out as has_logg5_17_,
+        userlogin0_.is_system as is_syste6_17_,
+        userlogin0_.otp_resend_number as otp_rese7_17_,
+        userlogin0_.otp_secret as otp_secr8_17_,
+        userlogin0_.party_id as party_i13_17_,
+        userlogin0_.current_password as current_9_17_,
+        userlogin0_.password_hint as passwor10_17_,
+        userlogin0_.require_password_change as require11_17_,
+        userlogin0_.successive_failed_logins as success12_17_ 
+    from
+        user_login userlogin0_ 
+    where
+        userlogin0_.user_login_id=?
+2020-08-20 16:54:32.504 TRACE 6184 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2020-08-20 16:54:32.539 DEBUG 6184 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        party0_.party_id as party_id1_3_0_,
+        party0_.created_by_user_login as created_2_3_0_,
+        party0_.created_date as created_3_3_0_,
+        party0_.description as descript4_3_0_,
+        party0_.is_unread as is_unrea5_3_0_,
+        party0_.last_modified_date as last_mod6_3_0_,
+        party0_.last_modified_by_user_login as last_mod7_3_0_,
+        party0_.name as name8_3_0_,
+        party0_.party_code as party_co9_3_0_,
+        party0_.status_id as status_12_3_0_,
+        party0_.party_type_id as party_t13_3_0_,
+        partytype1_.party_type_id as party_ty1_5_1_,
+        partytype1_.created_stamp as created_2_5_1_,
+        partytype1_.description as descript3_5_1_,
+        partytype1_.has_table as has_tabl4_5_1_,
+        partytype1_.last_updated_stamp as last_upd5_5_1_,
+        partytype1_.parent_type_id as parent_t6_5_1_,
+        userlogin2_.user_login_id as user_log1_17_2_,
+        userlogin2_.client_token as client_t2_17_2_,
+        userlogin2_.disabled_date_time as disabled3_17_2_,
+        userlogin2_.enabled as enabled4_17_2_,
+        userlogin2_.has_logged_out as has_logg5_17_2_,
+        userlogin2_.is_system as is_syste6_17_2_,
+        userlogin2_.otp_resend_number as otp_rese7_17_2_,
+        userlogin2_.otp_secret as otp_secr8_17_2_,
+        userlogin2_.party_id as party_i13_17_2_,
+        userlogin2_.current_password as current_9_17_2_,
+        userlogin2_.password_hint as passwor10_17_2_,
+        userlogin2_.require_password_change as require11_17_2_,
+        userlogin2_.successive_failed_logins as success12_17_2_,
+        roles3_.user_login_id as user_log1_16_3_,
+        securitygr4_.group_id as group_id2_16_3_,
+        securitygr4_.group_id as group_id1_8_4_,
+        securitygr4_.created_stamp as created_2_8_4_,
+        securitygr4_.description as descript3_8_4_,
+        securitygr4_.last_updated_stamp as last_upd4_8_4_ 
+    from
+        party party0_ 
+    left outer join
+        party_type partytype1_ 
+            on party0_.party_type_id=partytype1_.party_type_id 
+    left outer join
+        user_login userlogin2_ 
+            on party0_.party_id=userlogin2_.party_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin2_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        party0_.party_id=?
+2020-08-20 16:54:32.541 TRACE 6184 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 16:54:32.585 DEBUG 6184 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_3_,
+        userlogin0_.client_token as client_t2_17_3_,
+        userlogin0_.disabled_date_time as disabled3_17_3_,
+        userlogin0_.enabled as enabled4_17_3_,
+        userlogin0_.has_logged_out as has_logg5_17_3_,
+        userlogin0_.is_system as is_syste6_17_3_,
+        userlogin0_.otp_resend_number as otp_rese7_17_3_,
+        userlogin0_.otp_secret as otp_secr8_17_3_,
+        userlogin0_.party_id as party_i13_17_3_,
+        userlogin0_.current_password as current_9_17_3_,
+        userlogin0_.password_hint as passwor10_17_3_,
+        userlogin0_.require_password_change as require11_17_3_,
+        userlogin0_.successive_failed_logins as success12_17_3_,
+        party1_.party_id as party_id1_3_0_,
+        party1_.created_by_user_login as created_2_3_0_,
+        party1_.created_date as created_3_3_0_,
+        party1_.description as descript4_3_0_,
+        party1_.is_unread as is_unrea5_3_0_,
+        party1_.last_modified_date as last_mod6_3_0_,
+        party1_.last_modified_by_user_login as last_mod7_3_0_,
+        party1_.name as name8_3_0_,
+        party1_.party_code as party_co9_3_0_,
+        party1_.status_id as status_12_3_0_,
+        party1_.party_type_id as party_t13_3_0_,
+        partytype2_.party_type_id as party_ty1_5_1_,
+        partytype2_.created_stamp as created_2_5_1_,
+        partytype2_.description as descript3_5_1_,
+        partytype2_.has_table as has_tabl4_5_1_,
+        partytype2_.last_updated_stamp as last_upd5_5_1_,
+        partytype2_.parent_type_id as parent_t6_5_1_,
+        roles3_.user_login_id as user_log1_16_5_,
+        securitygr4_.group_id as group_id2_16_5_,
+        securitygr4_.group_id as group_id1_8_2_,
+        securitygr4_.created_stamp as created_2_8_2_,
+        securitygr4_.description as descript3_8_2_,
+        securitygr4_.last_updated_stamp as last_upd4_8_2_ 
+    from
+        user_login userlogin0_ 
+    left outer join
+        party party1_ 
+            on userlogin0_.party_id=party1_.party_id 
+    left outer join
+        party_type partytype2_ 
+            on party1_.party_type_id=partytype2_.party_type_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin0_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        userlogin0_.party_id=?
+2020-08-20 16:54:32.587 TRACE 6184 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 16:54:32.893 DEBUG 6184 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_,
+        userlogin0_.client_token as client_t2_17_,
+        userlogin0_.disabled_date_time as disabled3_17_,
+        userlogin0_.enabled as enabled4_17_,
+        userlogin0_.has_logged_out as has_logg5_17_,
+        userlogin0_.is_system as is_syste6_17_,
+        userlogin0_.otp_resend_number as otp_rese7_17_,
+        userlogin0_.otp_secret as otp_secr8_17_,
+        userlogin0_.party_id as party_i13_17_,
+        userlogin0_.current_password as current_9_17_,
+        userlogin0_.password_hint as passwor10_17_,
+        userlogin0_.require_password_change as require11_17_,
+        userlogin0_.successive_failed_logins as success12_17_ 
+    from
+        user_login userlogin0_ 
+    where
+        userlogin0_.user_login_id=?
+2020-08-20 16:54:32.893 TRACE 6184 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2020-08-20 16:54:32.897 DEBUG 6184 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        party0_.party_id as party_id1_3_0_,
+        party0_.created_by_user_login as created_2_3_0_,
+        party0_.created_date as created_3_3_0_,
+        party0_.description as descript4_3_0_,
+        party0_.is_unread as is_unrea5_3_0_,
+        party0_.last_modified_date as last_mod6_3_0_,
+        party0_.last_modified_by_user_login as last_mod7_3_0_,
+        party0_.name as name8_3_0_,
+        party0_.party_code as party_co9_3_0_,
+        party0_.status_id as status_12_3_0_,
+        party0_.party_type_id as party_t13_3_0_,
+        partytype1_.party_type_id as party_ty1_5_1_,
+        partytype1_.created_stamp as created_2_5_1_,
+        partytype1_.description as descript3_5_1_,
+        partytype1_.has_table as has_tabl4_5_1_,
+        partytype1_.last_updated_stamp as last_upd5_5_1_,
+        partytype1_.parent_type_id as parent_t6_5_1_,
+        userlogin2_.user_login_id as user_log1_17_2_,
+        userlogin2_.client_token as client_t2_17_2_,
+        userlogin2_.disabled_date_time as disabled3_17_2_,
+        userlogin2_.enabled as enabled4_17_2_,
+        userlogin2_.has_logged_out as has_logg5_17_2_,
+        userlogin2_.is_system as is_syste6_17_2_,
+        userlogin2_.otp_resend_number as otp_rese7_17_2_,
+        userlogin2_.otp_secret as otp_secr8_17_2_,
+        userlogin2_.party_id as party_i13_17_2_,
+        userlogin2_.current_password as current_9_17_2_,
+        userlogin2_.password_hint as passwor10_17_2_,
+        userlogin2_.require_password_change as require11_17_2_,
+        userlogin2_.successive_failed_logins as success12_17_2_,
+        roles3_.user_login_id as user_log1_16_3_,
+        securitygr4_.group_id as group_id2_16_3_,
+        securitygr4_.group_id as group_id1_8_4_,
+        securitygr4_.created_stamp as created_2_8_4_,
+        securitygr4_.description as descript3_8_4_,
+        securitygr4_.last_updated_stamp as last_upd4_8_4_ 
+    from
+        party party0_ 
+    left outer join
+        party_type partytype1_ 
+            on party0_.party_type_id=partytype1_.party_type_id 
+    left outer join
+        user_login userlogin2_ 
+            on party0_.party_id=userlogin2_.party_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin2_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        party0_.party_id=?
+2020-08-20 16:54:32.897 TRACE 6184 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 16:54:32.900 DEBUG 6184 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        userlogin0_.user_login_id as user_log1_17_3_,
+        userlogin0_.client_token as client_t2_17_3_,
+        userlogin0_.disabled_date_time as disabled3_17_3_,
+        userlogin0_.enabled as enabled4_17_3_,
+        userlogin0_.has_logged_out as has_logg5_17_3_,
+        userlogin0_.is_system as is_syste6_17_3_,
+        userlogin0_.otp_resend_number as otp_rese7_17_3_,
+        userlogin0_.otp_secret as otp_secr8_17_3_,
+        userlogin0_.party_id as party_i13_17_3_,
+        userlogin0_.current_password as current_9_17_3_,
+        userlogin0_.password_hint as passwor10_17_3_,
+        userlogin0_.require_password_change as require11_17_3_,
+        userlogin0_.successive_failed_logins as success12_17_3_,
+        party1_.party_id as party_id1_3_0_,
+        party1_.created_by_user_login as created_2_3_0_,
+        party1_.created_date as created_3_3_0_,
+        party1_.description as descript4_3_0_,
+        party1_.is_unread as is_unrea5_3_0_,
+        party1_.last_modified_date as last_mod6_3_0_,
+        party1_.last_modified_by_user_login as last_mod7_3_0_,
+        party1_.name as name8_3_0_,
+        party1_.party_code as party_co9_3_0_,
+        party1_.status_id as status_12_3_0_,
+        party1_.party_type_id as party_t13_3_0_,
+        partytype2_.party_type_id as party_ty1_5_1_,
+        partytype2_.created_stamp as created_2_5_1_,
+        partytype2_.description as descript3_5_1_,
+        partytype2_.has_table as has_tabl4_5_1_,
+        partytype2_.last_updated_stamp as last_upd5_5_1_,
+        partytype2_.parent_type_id as parent_t6_5_1_,
+        roles3_.user_login_id as user_log1_16_5_,
+        securitygr4_.group_id as group_id2_16_5_,
+        securitygr4_.group_id as group_id1_8_2_,
+        securitygr4_.created_stamp as created_2_8_2_,
+        securitygr4_.description as descript3_8_2_,
+        securitygr4_.last_updated_stamp as last_upd4_8_2_ 
+    from
+        user_login userlogin0_ 
+    left outer join
+        party party1_ 
+            on userlogin0_.party_id=party1_.party_id 
+    left outer join
+        party_type partytype2_ 
+            on party1_.party_type_id=partytype2_.party_type_id 
+    left outer join
+        user_login_security_group roles3_ 
+            on userlogin0_.user_login_id=roles3_.user_login_id 
+    left outer join
+        security_group securitygr4_ 
+            on roles3_.group_id=securitygr4_.group_id 
+    where
+        userlogin0_.party_id=?
+2020-08-20 16:54:32.901 TRACE 6184 --- [nio-8080-exec-3]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [OTHER] - [bd6322f2-2121-11ea-81a8-979e2f76b5a4]
+2020-08-20 16:54:33.219  INFO 6184 --- [nio-8080-exec-3]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 16:54:33.223  INFO 6184 --- [nio-8080-exec-3]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 16:54:50.876 DEBUG 6184 --- [nio-8080-exec-4]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address,
+        created_stamp createdStamp,
+        last_updated_stamp lastUpdateStampfrom supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 16:54:50.877 TRACE 6184 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%TUAN]
+2020-08-20 16:54:50.878 TRACE 6184 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%TUAN]
+2020-08-20 16:54:50.878 TRACE 6184 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%TUAN]
+2020-08-20 16:54:50.878 TRACE 6184 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%TUAN]
+2020-08-20 16:54:50.893  WARN 6184 --- [nio-8080-exec-4]  o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42601
+2020-08-20 16:54:50.893 ERROR 6184 --- [nio-8080-exec-4]  o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: syntax error at or near "supplier"
+  Position: 168
+2020-08-20 16:57:11.770  INFO 6184 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:57:12.911  INFO 6184 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 16:57:12.914  INFO 6184 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 16:57:12.917  INFO 6184 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:58:15.176  INFO 11680 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 11680 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 16:58:15.177 DEBUG 11680 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 16:58:15.178  INFO 11680 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 16:58:15.227  WARN 11680 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 16:58:17.233  INFO 11680 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 16:58:17.234  INFO 11680 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 16:58:17.459  INFO 11680 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 214ms. Found 16 repository interfaces.
+2020-08-20 16:58:17.492  INFO 11680 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 16:58:17.495  INFO 11680 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 16:58:17.596  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 16:58:17.597  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 16:58:17.598  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 16:58:17.599  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 16:58:17.600  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 16:58:17.601  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 16:58:17.602  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 16:58:17.604  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 16:58:17.605  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 16:58:17.606  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 16:58:17.607  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 16:58:17.608  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 16:58:17.609  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 16:58:17.609  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 16:58:17.610  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 16:58:17.612  INFO 11680 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 16:58:17.612  INFO 11680 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2020-08-20 16:58:18.338  INFO 11680 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 16:58:19.079  INFO 11680 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 16:58:19.105  INFO 11680 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 16:58:19.106  INFO 11680 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 16:58:19.107  INFO 11680 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 16:58:19.474  INFO 11680 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 16:58:19.476  INFO 11680 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4202 ms
+2020-08-20 16:58:19.922  WARN 11680 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 16:58:19.922  INFO 11680 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:58:20.056  INFO 11680 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:58:20.147  INFO 11680 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 16:58:20.244  INFO 11680 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 16:58:20.407  INFO 11680 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 16:58:20.547  INFO 11680 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 16:58:22.594  INFO 11680 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 16:58:22.606  INFO 11680 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 16:58:23.650  WARN 11680 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 16:58:25.178  WARN 11680 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:58:25.178  WARN 11680 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:58:25.178  WARN 11680 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:58:25.193  WARN 11680 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:58:25.193  WARN 11680 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:58:25.193  WARN 11680 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 16:58:27.299  INFO 11680 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:58:28.552  INFO 11680 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@224bff6, org.springframework.security.web.context.SecurityContextPersistenceFilter@17eb5858, org.springframework.security.web.header.HeaderWriterFilter@8922006, org.springframework.security.web.authentication.logout.LogoutFilter@367026f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@651a3e01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52148669, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12f12982, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22523986, org.springframework.security.web.session.SessionManagementFilter@445dc8dc, org.springframework.security.web.access.ExceptionTranslationFilter@36fb5ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1de618b3]
+2020-08-20 16:58:29.137  INFO 11680 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 16:58:29.175  INFO 11680 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 16:58:29.182  INFO 11680 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 15.496 seconds (JVM running for 18.346)
+2020-08-20 16:58:35.616  INFO 11680 --- [nio-8080-exec-2]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 16:58:35.616  INFO 11680 --- [nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 16:58:35.648  INFO 11680 --- [nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-08-20 16:58:35.845  INFO 11680 --- [nio-8080-exec-2]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 16:58:35.846  INFO 11680 --- [nio-8080-exec-2]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 16:58:37.056 DEBUG 11680 --- [nio-8080-exec-2]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address,
+        created_stamp createdStamp,
+        last_updated_stamp lastUpdatedStamp 
+    from
+        supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 16:58:37.066 TRACE 11680 --- [nio-8080-exec-2]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%TUAN]
+2020-08-20 16:58:37.067 TRACE 11680 --- [nio-8080-exec-2]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%TUAN]
+2020-08-20 16:58:37.068 TRACE 11680 --- [nio-8080-exec-2]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%TUAN]
+2020-08-20 16:58:37.068 TRACE 11680 --- [nio-8080-exec-2]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%TUAN]
+2020-08-20 17:02:38.531 DEBUG 11680 --- [nio-8080-exec-5]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address,
+        created_stamp createdStamp,
+        last_updated_stamp lastUpdatedStamp 
+    from
+        supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 17:02:38.533 TRACE 11680 --- [nio-8080-exec-5]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%TUAN]
+2020-08-20 17:02:38.533 TRACE 11680 --- [nio-8080-exec-5]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%TUAN]
+2020-08-20 17:02:38.534 TRACE 11680 --- [nio-8080-exec-5]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%TUAN]
+2020-08-20 17:02:38.534 TRACE 11680 --- [nio-8080-exec-5]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%TUAN]
+2020-08-20 17:03:37.921  INFO 11680 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:03:39.059  INFO 11680 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:03:39.062  INFO 11680 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:03:39.065  INFO 11680 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:04:59.804  WARN 1892 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:04:59.851  INFO 1892 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 1892 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:04:59.853 DEBUG 1892 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:04:59.854  INFO 1892 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:05:02.177  INFO 1892 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:05:02.178  INFO 1892 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:05:02.451  INFO 1892 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 259ms. Found 16 repository interfaces.
+2020-08-20 17:05:02.480  INFO 1892 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:05:02.482  INFO 1892 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:05:02.550  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:05:02.552  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:05:02.553  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:05:02.554  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:05:02.555  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:05:02.556  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:05:02.558  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:05:02.559  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:05:02.559  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:05:02.560  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:05:02.562  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:05:02.563  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:05:02.565  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:05:02.566  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:05:02.567  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:05:02.567  INFO 1892 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:05:02.568  INFO 1892 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2020-08-20 17:05:03.326  INFO 1892 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:05:03.848  INFO 1892 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:05:03.884  INFO 1892 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:05:03.884  INFO 1892 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:05:03.885  INFO 1892 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:05:04.232  INFO 1892 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:05:04.233  INFO 1892 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4267 ms
+2020-08-20 17:05:04.571  WARN 1892 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:05:04.572  INFO 1892 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:05:04.728  INFO 1892 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:05:04.823  INFO 1892 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:05:04.909  INFO 1892 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:05:05.451  INFO 1892 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:05:05.637  INFO 1892 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:05:07.346  INFO 1892 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:05:07.355  INFO 1892 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:05:08.104  WARN 1892 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:05:10.144  WARN 1892 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:05:10.145  WARN 1892 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:05:10.146  WARN 1892 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:05:10.170  WARN 1892 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:05:10.170  WARN 1892 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:05:10.172  WARN 1892 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:05:12.899  INFO 1892 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:05:14.054  INFO 1892 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ffa60c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a487b86, org.springframework.security.web.header.HeaderWriterFilter@a0d3cc7, org.springframework.security.web.authentication.logout.LogoutFilter@3341ba8e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ecf19e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ca4763f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19bd1f98, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@646ba7be, org.springframework.security.web.session.SessionManagementFilter@495fa126, org.springframework.security.web.access.ExceptionTranslationFilter@62fef807, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fbb39ea]
+2020-08-20 17:05:14.695  INFO 1892 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:05:14.730  INFO 1892 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:05:14.736  INFO 1892 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 17.144 seconds (JVM running for 20.407)
+2020-08-20 17:05:45.131  INFO 1892 --- [nio-8080-exec-1]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:05:45.131  INFO 1892 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:05:45.190  INFO 1892 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 59 ms
+2020-08-20 17:05:45.396  INFO 1892 --- [nio-8080-exec-1]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:05:45.398  INFO 1892 --- [nio-8080-exec-1]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:05:46.560 DEBUG 1892 --- [nio-8080-exec-1]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address,
+        created_stamp createdStamp,
+        last_updated_stamp lastUpdatedStamp 
+    from
+        supplier s 
+    where
+        email like ?  limit ?
+2020-08-20 17:05:46.570 TRACE 1892 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [anhtuan@gmail.com]
+2020-08-20 17:06:21.656  INFO 1892 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:06:22.791  INFO 1892 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:06:22.794  INFO 1892 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:06:22.799  INFO 1892 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:07:46.269  WARN 13904 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:07:46.372  INFO 13904 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 13904 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:07:46.373 DEBUG 13904 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:07:46.374  INFO 13904 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:07:48.402  INFO 13904 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:07:48.403  INFO 13904 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:07:48.692  INFO 13904 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 247ms. Found 16 repository interfaces.
+2020-08-20 17:07:48.714  INFO 13904 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:07:48.716  INFO 13904 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:07:48.777  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:07:48.778  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:07:48.780  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:07:48.780  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:07:48.781  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:07:48.782  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:07:48.782  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:07:48.783  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:07:48.784  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:07:48.784  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:07:48.785  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:07:48.785  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:07:48.786  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:07:48.786  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:07:48.787  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:07:48.787  INFO 13904 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:07:48.788  INFO 13904 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2020-08-20 17:07:49.415  INFO 13904 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:07:49.966  INFO 13904 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:07:49.981  INFO 13904 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:07:49.982  INFO 13904 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:07:49.983  INFO 13904 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:07:50.260  INFO 13904 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:07:50.261  INFO 13904 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3793 ms
+2020-08-20 17:07:50.616  WARN 13904 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:07:50.617  INFO 13904 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:07:50.774  INFO 13904 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:07:50.863  INFO 13904 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:07:50.949  INFO 13904 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:07:51.129  INFO 13904 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:07:51.280  INFO 13904 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:07:52.984  INFO 13904 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:07:52.994  INFO 13904 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:07:53.669  WARN 13904 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:07:55.230  WARN 13904 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:07:55.230  WARN 13904 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:07:55.230  WARN 13904 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:07:55.245  WARN 13904 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:07:55.245  WARN 13904 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:07:55.245  WARN 13904 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:07:57.283  INFO 13904 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:07:58.575  INFO 13904 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4be75a68, org.springframework.security.web.context.SecurityContextPersistenceFilter@6845dfcc, org.springframework.security.web.header.HeaderWriterFilter@153f6a67, org.springframework.security.web.authentication.logout.LogoutFilter@689f60ea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27de073b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e7e4aea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7adc8212, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@747d1e03, org.springframework.security.web.session.SessionManagementFilter@4df4f611, org.springframework.security.web.access.ExceptionTranslationFilter@618cfd1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75ad8ca8]
+2020-08-20 17:07:59.163  INFO 13904 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:07:59.203  INFO 13904 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:07:59.210  INFO 13904 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 14.448 seconds (JVM running for 17.174)
+2020-08-20 17:08:18.808  INFO 13904 --- [nio-8080-exec-1]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:08:18.809  INFO 13904 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:08:18.842  INFO 13904 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-08-20 17:08:19.038  INFO 13904 --- [nio-8080-exec-1]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:08:19.042  INFO 13904 --- [nio-8080-exec-1]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:08:20.234 DEBUG 13904 --- [nio-8080-exec-1]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        
+    from
+        supplier s 
+    where
+        supplier_name like ?  limit ?
+2020-08-20 17:08:20.242 TRACE 13904 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [ANH]
+2020-08-20 17:08:20.254  WARN 13904 --- [nio-8080-exec-1]  o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42601
+2020-08-20 17:08:20.255 ERROR 13904 --- [nio-8080-exec-1]  o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: syntax error at or near "from"
+  Position: 85
+2020-08-20 17:23:45.662  INFO 13904 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:23:46.800  INFO 13904 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:23:46.803  INFO 13904 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:23:46.808  INFO 13904 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:31:02.869  INFO 8832 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 8832 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:31:02.871 DEBUG 8832 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:31:02.872  INFO 8832 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:31:02.880  WARN 8832 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:31:04.824  INFO 8832 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:31:04.825  INFO 8832 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:31:05.041  INFO 8832 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 206ms. Found 16 repository interfaces.
+2020-08-20 17:31:05.062  INFO 8832 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:31:05.064  INFO 8832 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:31:05.139  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:31:05.140  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:31:05.141  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:31:05.142  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:31:05.143  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:31:05.145  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:31:05.146  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:31:05.147  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:31:05.148  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:31:05.149  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:31:05.150  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:31:05.151  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:31:05.152  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:31:05.153  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:31:05.154  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:31:05.156  INFO 8832 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:31:05.156  INFO 8832 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2020-08-20 17:31:05.871  INFO 8832 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:31:06.315  INFO 8832 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:31:06.327  INFO 8832 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:31:06.328  INFO 8832 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:31:06.328  INFO 8832 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:31:06.557  INFO 8832 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:31:06.557  INFO 8832 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3575 ms
+2020-08-20 17:31:06.898  WARN 8832 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:31:06.898  INFO 8832 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:31:07.038  INFO 8832 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:31:07.129  INFO 8832 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:31:07.226  INFO 8832 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:31:07.396  INFO 8832 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:31:07.581  INFO 8832 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:31:09.135  INFO 8832 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:31:09.145  INFO 8832 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:31:09.719  WARN 8832 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:31:11.290  WARN 8832 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:31:11.291  WARN 8832 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:31:11.291  WARN 8832 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:31:11.311  WARN 8832 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:31:11.312  WARN 8832 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:31:11.312  WARN 8832 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:31:14.000  INFO 8832 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:31:15.430  INFO 8832 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53a52b3f, org.springframework.security.web.context.SecurityContextPersistenceFilter@411acaed, org.springframework.security.web.header.HeaderWriterFilter@25892fe3, org.springframework.security.web.authentication.logout.LogoutFilter@55abf66a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@570fc662, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a8d4a3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36fb5ba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1396ee3b, org.springframework.security.web.session.SessionManagementFilter@351aa7f, org.springframework.security.web.access.ExceptionTranslationFilter@3829e6ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6413fef3]
+2020-08-20 17:31:16.119  INFO 8832 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:31:16.157  INFO 8832 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:31:16.163  INFO 8832 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 14.701 seconds (JVM running for 17.526)
+2020-08-20 17:31:20.088  INFO 8832 --- [nio-8080-exec-1]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:31:20.089  INFO 8832 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:31:20.119  INFO 8832 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2020-08-20 17:31:20.353  INFO 8832 --- [nio-8080-exec-1]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:31:20.358  INFO 8832 --- [nio-8080-exec-1]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:31:21.528 DEBUG 8832 --- [nio-8080-exec-1]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        
+    from
+        supplier s 
+    where
+        supplier_name like ?  limit ?
+2020-08-20 17:31:21.535 TRACE 8832 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [ANH]
+2020-08-20 17:31:21.547  WARN 8832 --- [nio-8080-exec-1]  o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42601
+2020-08-20 17:31:21.548 ERROR 8832 --- [nio-8080-exec-1]  o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: syntax error at or near "from"
+  Position: 85
+2020-08-20 17:31:34.263 DEBUG 8832 --- [nio-8080-exec-5]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        
+    from
+        supplier s 
+    where
+        supplier_name like ?  limit ?
+2020-08-20 17:31:34.264 TRACE 8832 --- [nio-8080-exec-5]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [ANH TUAN]
+2020-08-20 17:31:34.269  WARN 8832 --- [nio-8080-exec-5]  o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42601
+2020-08-20 17:31:34.270 ERROR 8832 --- [nio-8080-exec-5]  o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: syntax error at or near "from"
+  Position: 85
+2020-08-20 17:32:09.538 DEBUG 8832 --- [nio-8080-exec-7]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        
+    from
+        supplier s 
+    where
+        supplier_name like ?  limit ?
+2020-08-20 17:32:09.539 TRACE 8832 --- [nio-8080-exec-7]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [ANH TUAN]
+2020-08-20 17:32:09.545  WARN 8832 --- [nio-8080-exec-7]  o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42601
+2020-08-20 17:32:09.545 ERROR 8832 --- [nio-8080-exec-7]  o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: syntax error at or near "from"
+  Position: 85
+2020-08-20 17:32:45.904  INFO 8832 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:32:47.417  INFO 8832 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:32:47.476  INFO 8832 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:32:47.539  INFO 8832 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:37:44.848  WARN 13236 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:37:44.868  INFO 13236 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 13236 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:37:44.869 DEBUG 13236 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:37:44.870  INFO 13236 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:37:46.879  INFO 13236 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:37:46.879  INFO 13236 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:37:47.109  INFO 13236 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 220ms. Found 16 repository interfaces.
+2020-08-20 17:37:47.133  INFO 13236 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:37:47.135  INFO 13236 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:37:47.202  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:37:47.203  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:37:47.203  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:37:47.204  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:37:47.204  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:37:47.205  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:37:47.205  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:37:47.206  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:37:47.207  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:37:47.208  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:37:47.209  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:37:47.210  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:37:47.210  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:37:47.211  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:37:47.212  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:37:47.212  INFO 13236 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:37:47.212  INFO 13236 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2020-08-20 17:37:47.912  INFO 13236 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:37:48.352  INFO 13236 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:37:48.364  INFO 13236 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:37:48.365  INFO 13236 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:37:48.365  INFO 13236 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:37:48.641  INFO 13236 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:37:48.642  INFO 13236 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3656 ms
+2020-08-20 17:37:48.905  WARN 13236 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:37:48.905  INFO 13236 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:37:49.052  INFO 13236 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:37:49.144  INFO 13236 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:37:49.247  INFO 13236 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:37:49.410  INFO 13236 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:37:49.654  INFO 13236 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:37:51.282  INFO 13236 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:37:51.293  INFO 13236 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:37:51.991  WARN 13236 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:37:53.744  WARN 13236 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:37:53.745  WARN 13236 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:37:53.745  WARN 13236 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:37:53.760  WARN 13236 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:37:53.760  WARN 13236 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:37:53.760  WARN 13236 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:37:55.839  INFO 13236 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:37:56.985  INFO 13236 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1972346b, org.springframework.security.web.context.SecurityContextPersistenceFilter@38ebb117, org.springframework.security.web.header.HeaderWriterFilter@3f707d71, org.springframework.security.web.authentication.logout.LogoutFilter@2a87d40f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5c3b3f04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fb689fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6499fda5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a2454b0, org.springframework.security.web.session.SessionManagementFilter@1f96db42, org.springframework.security.web.access.ExceptionTranslationFilter@bfd7235, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24f3d208]
+2020-08-20 17:37:57.661  INFO 13236 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:37:57.699  INFO 13236 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:37:57.704  INFO 13236 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 14.475 seconds (JVM running for 18.108)
+2020-08-20 17:38:04.231  INFO 13236 --- [nio-8080-exec-1]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:38:04.231  INFO 13236 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:38:04.265  INFO 13236 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2020-08-20 17:38:04.447  INFO 13236 --- [nio-8080-exec-1]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:38:04.449  INFO 13236 --- [nio-8080-exec-1]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:38:05.598 DEBUG 13236 --- [nio-8080-exec-1]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 17:38:05.605 TRACE 13236 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%ANH TUAN]
+2020-08-20 17:38:05.606 TRACE 13236 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%ANH TUAN]
+2020-08-20 17:38:05.606 TRACE 13236 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%ANH TUAN]
+2020-08-20 17:38:05.606 TRACE 13236 --- [nio-8080-exec-1]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%ANH TUAN]
+2020-08-20 17:38:18.835 DEBUG 13236 --- [nio-8080-exec-4]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 17:38:18.836 TRACE 13236 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%ANH]
+2020-08-20 17:38:18.837 TRACE 13236 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%ANH]
+2020-08-20 17:38:18.837 TRACE 13236 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%ANH]
+2020-08-20 17:38:18.837 TRACE 13236 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%ANH]
+2020-08-20 17:38:23.985 DEBUG 13236 --- [nio-8080-exec-6]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 17:38:23.988 TRACE 13236 --- [nio-8080-exec-6]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%anh]
+2020-08-20 17:38:23.988 TRACE 13236 --- [nio-8080-exec-6]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%anh]
+2020-08-20 17:38:23.988 TRACE 13236 --- [nio-8080-exec-6]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%anh]
+2020-08-20 17:38:23.989 TRACE 13236 --- [nio-8080-exec-6]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%anh]
+2020-08-20 17:40:44.778  INFO 13236 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:40:45.910  INFO 13236 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:40:45.912  INFO 13236 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:40:45.917  INFO 13236 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:41:19.887  INFO 9676 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 9676 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:41:19.890 DEBUG 9676 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:41:19.891  INFO 9676 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:41:19.899  WARN 9676 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:41:21.842  INFO 9676 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:41:21.842  INFO 9676 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:41:22.066  INFO 9676 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 213ms. Found 16 repository interfaces.
+2020-08-20 17:41:22.090  INFO 9676 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:41:22.091  INFO 9676 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:41:22.165  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:41:22.166  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:41:22.167  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:41:22.167  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:41:22.168  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:41:22.169  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:41:22.170  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:41:22.170  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:41:22.171  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:41:22.172  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:41:22.173  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:41:22.173  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:41:22.174  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:41:22.175  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:41:22.176  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:41:22.176  INFO 9676 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:41:22.177  INFO 9676 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2020-08-20 17:41:22.850  INFO 9676 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:41:23.312  INFO 9676 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:41:23.356  INFO 9676 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:41:23.357  INFO 9676 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:41:23.357  INFO 9676 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:41:23.631  INFO 9676 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:41:23.631  INFO 9676 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3581 ms
+2020-08-20 17:41:23.914  WARN 9676 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:41:23.914  INFO 9676 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:41:24.044  INFO 9676 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:41:24.138  INFO 9676 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:41:24.270  INFO 9676 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:41:24.453  INFO 9676 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:41:24.604  INFO 9676 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:41:26.979  INFO 9676 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:41:26.993  INFO 9676 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:41:28.445  WARN 9676 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:41:30.162  WARN 9676 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:41:30.163  WARN 9676 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:41:30.163  WARN 9676 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:41:30.183  WARN 9676 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:41:30.184  WARN 9676 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:41:30.184  WARN 9676 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:41:32.521  INFO 9676 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:41:33.671  INFO 9676 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@752daa1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@e0fbed5, org.springframework.security.web.header.HeaderWriterFilter@fc6c83a, org.springframework.security.web.authentication.logout.LogoutFilter@73e6d475, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@61f26cba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74944d7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c90063f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62a1bc26, org.springframework.security.web.session.SessionManagementFilter@22251bc6, org.springframework.security.web.access.ExceptionTranslationFilter@4201bd3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ea036c3]
+2020-08-20 17:41:34.268  INFO 9676 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:41:34.312  INFO 9676 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:41:34.319  INFO 9676 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 15.902 seconds (JVM running for 19.717)
+2020-08-20 17:41:45.192  INFO 9676 --- [nio-8080-exec-3]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:41:45.193  INFO 9676 --- [nio-8080-exec-3]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:41:45.225  INFO 9676 --- [nio-8080-exec-3]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-08-20 17:41:45.405  INFO 9676 --- [nio-8080-exec-3]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:41:45.408  INFO 9676 --- [nio-8080-exec-3]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:41:46.588 DEBUG 9676 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        supplier0_.supplier_id as supplier1_14_,
+        supplier0_.address as address2_14_,
+        supplier0_.created_stamp as created_3_14_,
+        supplier0_.email as email4_14_,
+        supplier0_.last_updated_stamp as last_upd5_14_,
+        supplier0_.phone_number as phone_nu6_14_,
+        supplier0_.supplier_name as supplier7_14_ 
+    from
+        supplier supplier0_ limit ?
+2020-08-20 17:41:46.622 DEBUG 9676 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        count(supplier0_.supplier_id) as col_0_0_ 
+    from
+        supplier supplier0_
+2020-08-20 17:41:46.632 DEBUG 9676 --- [nio-8080-exec-3]  org.hibernate.SQL                        : 
+    select
+        count(*) as col_0_0_ 
+    from
+        supplier supplier0_
+2020-08-20 17:41:53.445 DEBUG 9676 --- [nio-8080-exec-4]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s 
+    where
+        supplier_name like ? 
+        and email like ? 
+        and phone_number like ? 
+        and address like ? limit ?
+2020-08-20 17:41:53.451 TRACE 9676 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%anh]
+2020-08-20 17:41:53.452 TRACE 9676 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [%anh]
+2020-08-20 17:41:53.452 TRACE 9676 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%anh]
+2020-08-20 17:41:53.453 TRACE 9676 --- [nio-8080-exec-4]  o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [%anh]
+2020-08-20 17:43:29.086  INFO 9676 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:43:30.250  INFO 9676 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:43:30.253  INFO 9676 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:43:30.258  INFO 9676 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:44:07.225  WARN 14788 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:44:07.259  INFO 14788 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 14788 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:44:07.260 DEBUG 14788 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:44:07.261  INFO 14788 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:44:09.260  INFO 14788 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:44:09.261  INFO 14788 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:44:09.477  INFO 14788 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 207ms. Found 16 repository interfaces.
+2020-08-20 17:44:09.508  INFO 14788 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:44:09.510  INFO 14788 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:44:09.615  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:44:09.615  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:44:09.616  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:44:09.616  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:44:09.617  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:44:09.617  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:44:09.618  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:44:09.618  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:44:09.619  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:44:09.619  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:44:09.620  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:44:09.620  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:44:09.621  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:44:09.621  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:44:09.622  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:44:09.623  INFO 14788 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:44:09.623  INFO 14788 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2020-08-20 17:44:10.233  INFO 14788 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:44:10.694  INFO 14788 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:44:10.706  INFO 14788 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:44:10.706  INFO 14788 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:44:10.707  INFO 14788 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:44:10.925  INFO 14788 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:44:10.925  INFO 14788 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3536 ms
+2020-08-20 17:44:11.182  WARN 14788 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:44:11.182  INFO 14788 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:44:11.341  INFO 14788 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:44:11.470  INFO 14788 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:44:11.550  INFO 14788 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:44:11.744  INFO 14788 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:44:11.902  INFO 14788 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:44:13.477  INFO 14788 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:44:13.489  INFO 14788 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:44:14.183  WARN 14788 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:44:15.888  WARN 14788 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:44:15.889  WARN 14788 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:44:15.890  WARN 14788 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:44:15.908  WARN 14788 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:44:15.908  WARN 14788 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:44:15.909  WARN 14788 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:44:17.955  INFO 14788 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:44:19.007  INFO 14788 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78a894fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@52c0c594, org.springframework.security.web.header.HeaderWriterFilter@3473e1bb, org.springframework.security.web.authentication.logout.LogoutFilter@ef21eba, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b5ffde0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@545c3628, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62fef807, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@146b3bc7, org.springframework.security.web.session.SessionManagementFilter@c083cec, org.springframework.security.web.access.ExceptionTranslationFilter@6f798e5a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19e86461]
+2020-08-20 17:44:19.624  INFO 14788 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:44:19.660  INFO 14788 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:44:19.665  INFO 14788 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 13.851 seconds (JVM running for 16.429)
+2020-08-20 17:44:23.218  INFO 14788 --- [nio-8080-exec-1]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:44:23.218  INFO 14788 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:44:23.263  INFO 14788 --- [nio-8080-exec-1]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2020-08-20 17:44:23.471  INFO 14788 --- [nio-8080-exec-1]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:44:23.473  INFO 14788 --- [nio-8080-exec-1]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:44:24.577 DEBUG 14788 --- [nio-8080-exec-1]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s  limit ?
+2020-08-20 17:45:21.164  INFO 14788 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:45:22.304  INFO 14788 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:45:22.308  INFO 14788 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:45:22.313  INFO 14788 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 17:45:48.852  INFO 11996 --- [           main]  com.hust.baseweb.BasewebApplication      : Starting BasewebApplication on trungtd-tt with PID 11996 (started by trungpro in D:\TRUNG\1-ThucTap\mock project\pre02-team2\baseweb)
+2020-08-20 17:45:48.855 DEBUG 11996 --- [           main]  com.hust.baseweb.BasewebApplication      : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-08-20 17:45:48.856  INFO 11996 --- [           main]  com.hust.baseweb.BasewebApplication      : No active profile set, falling back to default profiles: default
+2020-08-20 17:45:48.868  WARN 11996 --- [kground-preinit]  o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-20 17:45:51.779  INFO 11996 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:45:51.779  INFO 11996 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:45:52.080  INFO 11996 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 286ms. Found 16 repository interfaces.
+2020-08-20 17:45:52.121  INFO 11996 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-20 17:45:52.126  INFO 11996 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-20 17:45:52.231  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.order.repo.OrderRepo.
+2020-08-20 17:45:52.232  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.applications.supplier.repo.SupplierRepo.
+2020-08-20 17:45:52.233  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationRepo.
+2020-08-20 17:45:52.235  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.ApplicationTypeRepo.
+2020-08-20 17:45:52.236  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyPagingRepo.
+2020-08-20 17:45:52.237  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRelationshipRepo.
+2020-08-20 17:45:52.237  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyRepo.
+2020-08-20 17:45:52.239  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PartyTypeRepo.
+2020-08-20 17:45:52.241  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.PersonRepo.
+2020-08-20 17:45:52.243  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.RoleTypeRepo.
+2020-08-20 17:45:52.244  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.SecurityGroupRepo.
+2020-08-20 17:45:52.245  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusItemRepo.
+2020-08-20 17:45:52.247  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.StatusRepo.
+2020-08-20 17:45:52.248  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserLoginRepo.
+2020-08-20 17:45:52.249  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.repo.UserRegisterRepo.
+2020-08-20 17:45:52.251  INFO 11996 --- [           main]  .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.hust.baseweb.rest.user.UserRestRepository.
+2020-08-20 17:45:52.251  INFO 11996 --- [           main]  .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces.
+2020-08-20 17:45:53.114  INFO 11996 --- [           main]  trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 17:45:53.700  INFO 11996 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-20 17:45:53.717  INFO 11996 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:45:53.717  INFO 11996 --- [           main]  o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-20 17:45:53.718  INFO 11996 --- [           main]  org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-20 17:45:53.964  INFO 11996 --- [           main]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2020-08-20 17:45:53.966  INFO 11996 --- [           main]  o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4953 ms
+2020-08-20 17:45:54.530  WARN 11996 --- [           main]  com.zaxxer.hikari.HikariConfig           : HikariPool-1 - leakDetectionThreshold is less than 2000ms or more than maxLifetime, disabling it.
+2020-08-20 17:45:54.531  INFO 11996 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 17:45:54.722  INFO 11996 --- [           main]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 17:45:54.827  INFO 11996 --- [           main]  o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-20 17:45:54.915  INFO 11996 --- [           main]  org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2020-08-20 17:45:55.141  INFO 11996 --- [           main]  o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-20 17:45:55.305  INFO 11996 --- [           main]  org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-08-20 17:45:58.071  INFO 11996 --- [           main]  o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-20 17:45:58.083  INFO 11996 --- [           main]  j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:45:59.022  WARN 11996 --- [           main]  JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-20 17:46:01.475  WARN 11996 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:46:01.475  WARN 11996 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:46:01.475  WARN 11996 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:46:01.495  WARN 11996 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:46:01.496  WARN 11996 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:46:01.496  WARN 11996 --- [           main]  o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-08-20 17:46:04.302  INFO 11996 --- [           main]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:46:05.649  INFO 11996 --- [           main]  o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48adb967, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a729612, org.springframework.security.web.header.HeaderWriterFilter@27e688ad, org.springframework.security.web.authentication.logout.LogoutFilter@63fa7643, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19e86461, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@427a4d68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3473e1bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@136cd71b, org.springframework.security.web.session.SessionManagementFilter@5967b3ce, org.springframework.security.web.access.ExceptionTranslationFilter@42c8f458, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e33203f]
+2020-08-20 17:46:06.432  INFO 11996 --- [           main]  o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-08-20 17:46:06.475  INFO 11996 --- [           main]  o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2020-08-20 17:46:06.487  INFO 11996 --- [           main]  com.hust.baseweb.BasewebApplication      : Started BasewebApplication in 19.096 seconds (JVM running for 21.669)
+2020-08-20 17:47:49.109  INFO 11996 --- [nio-8080-exec-2]  o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:47:49.110  INFO 11996 --- [nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:47:49.151  INFO 11996 --- [nio-8080-exec-2]  o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+2020-08-20 17:47:49.379  INFO 11996 --- [nio-8080-exec-2]  io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-08-20 17:47:49.381  INFO 11996 --- [nio-8080-exec-2]  io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-08-20 17:47:50.528 DEBUG 11996 --- [nio-8080-exec-2]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s  limit ?
+2020-08-20 17:47:53.223 DEBUG 11996 --- [nio-8080-exec-4]  org.hibernate.SQL                        : 
+    select
+        supplier_id supplierId,
+        supplier_name supplierName,
+        phone_number phoneNumber,
+        email,
+        address 
+    from
+        supplier s  limit ?
+2020-08-20 17:51:43.297  INFO 11996 --- [extShutdownHook]  o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:51:44.443  INFO 11996 --- [extShutdownHook]  j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-20 17:51:44.447  INFO 11996 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 17:51:44.452  INFO 11996 --- [extShutdownHook]  com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

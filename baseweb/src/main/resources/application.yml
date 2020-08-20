@@ -1,0 +1,82 @@
+
+SERVICE_HOST: localhost
+SERVICE_PORT: 8080
+SQL_DB_HOST: localhost
+SQL_DB_PORT: 5432
+SQL_DB_USER: postgres
+SQL_DB_PASS: dinhtrung
+POSTGRES_DB: baseweb
+
+server:
+  servlet:
+    context-path: '/api'
+
+spring:
+  jackson: 
+    serialization:
+      FAIL_ON_EMPTY_BEANS : false
+  servlet:
+    multipart:
+     max-file-size: 100MB
+     max-request-size: 100MB
+  data:
+    rest:
+      detection-strategy:  ANNOTATED
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maxLifetime: 300000
+      minimumIdle: 2
+      maximumPoolSize: 10
+      idleTimeout: 120000
+      connectionTimeout: 300000
+      leakDetectionThreshold: 1000000
+    url: jdbc:postgresql://${SQL_DB_HOST}:${SQL_DB_PORT}/${POSTGRES_DB}
+    username: ${SQL_DB_USER}
+    password: ${SQL_DB_PASS}
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        #generate_statistics: true
+        order_inserts: true
+        jdbc:
+          batch_size: 50
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+          timeout: 5000
+          writetimeout: 5000
+    username: // email
+    password: // email password
+
+logging:
+  file:
+    path: logs
+    name: base.log
+  level:
+    root: INFO
+    com:
+      hust :
+        baseweb : DEBUG
+    org:
+      springframework: INFO
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+
+  config: classpath:logback-dev.xml
+
+content-repo:
+  url : 'http://localhost:8081/'
